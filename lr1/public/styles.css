@@ -1,0 +1,46 @@
+.variant {
+  font-weight: bold;
+}
+
+.formula {
+  font-style: italic;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.function-inputs {
+  display: block;
+  background-color: #eeeeee;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.function-inputs:nth-child(2n) {
+  background-color: #ffffff;
+}
+
+.function-inputs-content {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.function-inputs__remove-button {
+  height: 90px;
+  margin-left: 10px;
+}
+
+.function-inputs__label {
+  width: 20px;
+  display: inline-block;
+}
+
+.function-inputs__input {
+  width: 200px;
+}
