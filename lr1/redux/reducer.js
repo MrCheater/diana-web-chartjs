@@ -8,6 +8,8 @@ export const initialState = {
       index: 0,
     },
   ],
+  scaleX: 1,
+  scaleY: 1,
 };
 
 const reducer = (state = initialState, action) => {
@@ -36,6 +38,60 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         formulas: state.formulas.filter((formula) => formula.index !== index),
+      };
+    }
+    case ActionTypes.UPDATE_A: {
+      const { index, value } = action.payload;
+      const nextFormulas = state.formulas.map((formula) =>
+        formula.index === index ? { ...formula, A: value } : formula
+      );
+
+      return {
+        ...state,
+        formulas: nextFormulas,
+      };
+    }
+    case ActionTypes.UPDATE_B: {
+      const { index, value } = action.payload;
+
+      return {
+        ...state,
+        formulas: state.formulas.map((formula) =>
+          formula.index === index ? { ...formula, B: value } : formula
+        ),
+      };
+    }
+    case ActionTypes.UPDATE_C: {
+      const { index, value } = action.payload;
+
+      return {
+        ...state,
+        formulas: state.formulas.map((formula) =>
+          formula.index === index ? { ...formula, C: value } : formula
+        ),
+      };
+    }
+    case ActionTypes.UPDATE_COLOR: {
+      const { index, value } = action.payload;
+      return {
+        ...state,
+        formulas: state.formulas.map((formula) =>
+          formula.index === index ? { ...formula, Color: value } : formula
+        ),
+      };
+    }
+    case ActionTypes.UPDATE_SCALE_X: {
+      const { value } = action.payload;
+      return {
+        ...state,
+        scaleX: value,
+      };
+    }
+    case ActionTypes.UPDATE_SCALE_Y: {
+      const { value } = action.payload;
+      return {
+        ...state,
+        scaleY: value,
       };
     }
     default:

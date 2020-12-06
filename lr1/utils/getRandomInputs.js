@@ -6,7 +6,7 @@ const getRandomInputs = () => {
   const B =
     (Math.random() > 0.5 ? 1 : -1) * (1 + Math.round(Math.random() * 8));
   const C =
-    (Math.random() > 0.5 ? 1 : -1) * (1 + Math.round(Math.random() * 8));
+    (Math.random() > 0.5 ? 1 : -1) * (1 + Math.round(Math.random() * 28));
   return {
     A,
     B,

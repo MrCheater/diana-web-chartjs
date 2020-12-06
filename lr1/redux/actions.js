@@ -23,34 +23,48 @@ export const removeFunction = (index) => ({
   },
 });
 
-export const updateA = (index, value) => ({
+export const updateA = (index, { target: { value } }) => ({
   type: ActionTypes.UPDATE_A,
   payload: {
     index,
-    value,
+    value: +value,
   },
 });
 
-export const updateB = (index, value) => ({
+export const updateB = (index, { target: { value } }) => ({
   type: ActionTypes.UPDATE_B,
   payload: {
     index,
-    value,
+    value: +value,
   },
 });
 
-export const updateC = (index, value) => ({
+export const updateC = (index, { target: { value } }) => ({
   type: ActionTypes.UPDATE_C,
   payload: {
     index,
-    value,
+    value: +value,
   },
 });
 
-export const updateColor = (index, value) => ({
+export const updateColor = (index, { target: { value } }) => ({
   type: ActionTypes.UPDATE_COLOR,
   payload: {
     index,
     value,
+  },
+});
+
+export const updateScaleX = ({ target: { value } }) => ({
+  type: ActionTypes.UPDATE_SCALE_X,
+  payload: {
+    value: +value,
+  },
+});
+
+export const updateScaleY = ({ target: { value } }) => ({
+  type: ActionTypes.UPDATE_SCALE_Y,
+  payload: {
+    value: +value,
   },
 });

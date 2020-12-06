@@ -11,6 +11,11 @@
   margin-bottom: 10px;
 }
 
+.controls {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .function-inputs {
   display: block;
   background-color: #eeeeee;
@@ -19,6 +24,17 @@
 }
 .function-inputs:nth-child(2n) {
   background-color: #ffffff;
+}
+
+.formulas-and-chart {
+  display: flex;
+  width: 100%;
+}
+.formulas-and-chart__left {
+  width: 400px;
+}
+.formulas-and-chart__right {
+  flex: 1;
 }
 
 .function-inputs-content {
