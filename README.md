@@ -20,5 +20,12 @@ npm run dev
 ![localhost-3000-login](https://user-images.githubusercontent.com/5055654/102686749-af15c100-41fa-11eb-8f9f-bcffa3b04152.png)
 ![localhost-3000-users](https://user-images.githubusercontent.com/5055654/102686745-ad4bfd80-41fa-11eb-8610-57116441d8a9.png)
 
+## lr4
+![localhost-3000-profile (1)2](https://user-images.githubusercontent.com/5055654/102694627-56aee580-4233-11eb-8c8b-b6ade9b81388.png)
+![localhost-3000-profile (1)](https://user-images.githubusercontent.com/5055654/102694628-57e01280-4233-11eb-8975-3f6c152dc466.png)
+![localhost-3000 (5)2](https://user-images.githubusercontent.com/5055654/102694629-57e01280-4233-11eb-9bdc-8b4063d30e91.png)
+![localhost-3000 (5)](https://user-images.githubusercontent.com/5055654/102694630-5878a900-4233-11eb-861a-c44f0bee3441.png)
+
+
 
 
