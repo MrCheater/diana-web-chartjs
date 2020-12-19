@@ -1,0 +1,124 @@
+.variant {
+  font-weight: bold;
+}
+
+.formula {
+  font-style: italic;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.controls {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.function {
+  display: block;
+  background-color: #eeeeee;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.function:nth-child(2n) {
+  background-color: #ffffff;
+}
+
+.formulas-and-chart {
+  display: flex;
+  width: 100%;
+}
+.formulas-and-chart__left {
+  width: 400px;
+}
+.formulas-and-chart__right {
+  flex: 1;
+}
+
+.function-content {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.function__remove-button {
+  height: 90px;
+  margin-left: 10px;
+}
+
+.function__label {
+  width: 20px;
+  display: inline-block;
+}
+
+.function__input {
+  width: 200px;
+}
+
+.modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: #ffffff;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.auth-form {
+}
+.auth-form__row {
+  margin-bottom: 5px;
+}
+.auth-form__label {
+  width: 200px;
+}
+.auth-form__input {
+  width: 200px;
+}
+
+.layout__menu {
+  background-color: #000000;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.layout__menu-item {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: underline;
+  margin-right: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.layout__menu-item--right {
+  float: right;
+}
+
+.users-table table,
+tr,
+td,
+th {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #aaaaaa;
+  padding: 3px;
+}
